@@ -17,21 +17,25 @@ After opening the program, you will see all of the code. Scrolling down will rev
 ### 1. Two Radial Waves
 `coordsList = basicWalls[size];
 xList = waveRadialDouble[xIn[size],{15.5,15.5},{20.5,22.5},coordsList];`
+
 ![](doc/p3.png)
 
 ### Radial Wave with Small Point
 `coordsList = point[size,20,14];
 xList = waveRadial[xIn[size],14.5,10.5,coordsList];`
+
 ![](doc/p4.png)
 
 ### Plane Wave with Divider
 `coordsList = divider[size,13,y];
 xList = wavePlane[xIn[size],x,10,coordsList];`
+
 ![](doc/p5.png)
 
 ### Plane Wave with Slit
 `coordsList = slit[size,9,x,4];
 xList = wavePlane[xIn[size],x,5,coordsList];`
+
 ![](doc/p6.png)
 
 
